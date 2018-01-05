@@ -1,0 +1,22 @@
+{
+  "name": "ControlsStyle",
+  "version": "0.1.0",
+  "summary": "To create stylist for controls of the app",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/thuydao/ControlsStyle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DaoThuy": "daoduythuy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/thuydao/ControlsStyle.git",
+    "branch": "master"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Source/**/*"
+}

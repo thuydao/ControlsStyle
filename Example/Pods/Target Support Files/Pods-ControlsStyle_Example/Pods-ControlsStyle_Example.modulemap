@@ -1,0 +1,6 @@
+framework module Pods_ControlsStyle_Example {
+  umbrella header "Pods-ControlsStyle_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

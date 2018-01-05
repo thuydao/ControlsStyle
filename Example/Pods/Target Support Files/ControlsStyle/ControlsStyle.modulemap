@@ -1,0 +1,6 @@
+framework module ControlsStyle {
+  umbrella header "ControlsStyle-umbrella.h"
+
+  export *
+  module * { export * }
+}
