@@ -7,30 +7,6 @@
 
 import UIKit
 
-//------------------------------------------------------------------------
-//let blackSmallCenterText = UILabelStyle(textColor: UIColor.black,textAlignment: .center, font:UIFont.systemFont(ofSize: 14, weight: UIFontWeightThin))
-struct UILabelStyle {
-    var textColor: UIColor = UIColor.black
-    var textAlignment: NSTextAlignment = .left
-    var font: UIFont = UIFont.systemFont(ofSize: 14)
-}
-
-extension UILabel {
-    convenience init(_ style: UILabelStyle) {
-        self.init()
-        _ = self.style(style: style)
-    }
-    
-    func style(style: UILabelStyle) -> UILabel {
-        self.textColor = style.textColor
-        self.textAlignment = style.textAlignment
-        self.font = style.font
-        self.backgroundColor = UIColor.clear
-        self.translatesAutoresizingMaskIntoConstraints = false
-        return self
-    }
-}
-
 extension UILabel {
     func textColor(_ color: UIColor!) -> UILabel {
         textColor = color
@@ -39,6 +15,11 @@ extension UILabel {
     
     func text(_ str: String) -> UILabel {
         text = str
+        return self
+    }
+    
+    func textAlignment(_ alignment: NSTextAlignment) -> UILabel {
+        textAlignment = alignment
         return self
     }
 }
