@@ -12,7 +12,7 @@ s.version = '0.1.0'
 s.license = 'MIT'
 s.summary = 'ControlsStyle: To create stylist for controls of the app'
 s.homepage = 'https://github.com/thuydao/ControlsStyle'
-//s.social_media_url = 'http://twitter.com/AlamofireSF'
+s.social_media_url = 'https://github.com/thuydao/ControlsStyle'
 s.author = { 'DaoThuy' => 'daoduythuy@gmail.com' }
 s.source           = { :git => 'https://github.com/thuydao/ControlsStyle.git', :branch => 'master' }
 
