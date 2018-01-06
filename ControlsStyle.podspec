@@ -7,34 +7,19 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ControlsStyle'
-  s.version          = '0.1.0'
-  s.summary          = 'To create stylist for controls of the app'
+s.name = 'ControlsStyle'
+s.version = '0.1.0'
+s.license = 'MIT'
+s.summary = 'ControlsStyle: To create stylist for controls of the app'
+s.homepage = 'https://github.com/thuydao/ControlsStyle'
+//s.social_media_url = 'http://twitter.com/AlamofireSF'
+s.author = { 'DaoThuy' => 'daoduythuy@gmail.com' }
+s.source           = { :git => 'https://github.com/thuydao/ControlsStyle.git', :branch => 'master' }
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.ios.deployment_target = '8.0'
+s.osx.deployment_target = '10.10'
+s.tvos.deployment_target = '9.0'
+s.watchos.deployment_target = '2.0'
 
-s.description      = 'ControlsStyle: To create stylist for controls of the app'
-
-  s.homepage         = 'https://github.com/thuydao/ControlsStyle'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DaoThuy' => 'daoduythuy@gmail.com' }
-  s.source           = { :git => 'https://github.com/thuydao/ControlsStyle.git', :branch => "master" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Source/*.swift'
-  
-  # s.resource_bundles = {
-  #   'ControlsStyle' => ['ControlsStyle/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/*.swift'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.source_files = 'Source/*.swift'
 end

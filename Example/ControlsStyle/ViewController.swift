@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         imageView.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
         //imageView.backgroundColor(UIColor.red)
-//        imageView.back
+//        imageView.backgroundColor
     }
 }
 
